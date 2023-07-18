@@ -14,13 +14,13 @@ def show_main_page():
     st.set_page_config(
         layout="wide",
         initial_sidebar_state="auto",
-        page_title="Churn Prediction",
+        page_title="Churn Prediction (Month to Month contract)",
         page_icon=image,
 
     )
     st.write(
         """
-        # Churn value classification
+        ## Churn value classification for customers with a Month to Month contract type.
         Let's check the probability of the customer's churn value.
         """
     )
